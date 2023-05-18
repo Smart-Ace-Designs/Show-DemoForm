@@ -9,6 +9,8 @@ This repository contains all files required to build the **Show-DemoForm** Scrip
 ## Purpose
 The **Show-DemoForm** script launches a Windows form that provides that demonstrates a basic ScriptoForm with sample controls added to it.  A custom Visual Studio Code snippets file ([powershell.json](https://github.com/Smart-Ace-Designs/SmartAceDesigns.ScriptoFormTemplates/blob/main/VSCode/powershell.json)) was used to automate and simplify adding the controls, properties, and handlers.
 
+![Screenshot 2023-05-17 212228](https://github.com/Smart-Ace-Designs/Show-DemoForm/assets/132539186/fb8edb1a-2345-4aff-86c8-6c121f5f8177)
+
 ## Requirements
 - This project supports the following command shells:
     - [Windows PowerShell 5.1](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-5.1)
