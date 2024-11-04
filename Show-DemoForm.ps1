@@ -9,7 +9,7 @@ This script is used to demonstrate a basic ScriptoForm that has been customized 
 #>
 
 #region Settings
-$SupportContact = "Smart Ace"
+$SUPPORT_CONTACT = "Smart Ace"
 #endregion
 
 #region Assemblies
@@ -142,7 +142,7 @@ $ButtonRun_Click =
     catch
     {
         [void][System.Windows.Forms.MessageBox]::Show(
-            $PSItem.Exception.Message + "`n`nPlease contact $SupportContact for technical support.",
+            $PSItem.Exception.Message + "`n`nPlease contact $SUPPORT_CONTACT for technical support.",
             "Exception",
             [System.Windows.Forms.MessageBoxButtons]::OK,
             [System.Windows.Forms.MessageBoxIcon]::Warning
