@@ -36,14 +36,14 @@ Microsoft .NET 10.x Framework
 - Open a supported command shell and navigate to the *Build* subdirectory in your local repository directory.
 - Run the following command from within your *Build* subdirectory:<br>
 ``dotnet publish -f net10.0-windows -v q -o ..\Release\LTS; dotnet clean -f net10.0-windows -v q``
-- The compiled executable will be created in the *Release\STS* subdirectory of your local repository directory.  This location can be changed by modifying the ``-o`` argument in the above command.
+- The compiled executable will be created in the *Release\LTS* subdirectory of your local repository directory.  This location can be changed by modifying the ``-o`` argument in the above command.
 - The latest [Microsoft .NET 10.x Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) will be required on any computer used to run the executable.
 
 Microsoft .NET 11.x Framework
 - Open a supported command shell and navigate to the *Build* subdirectory in your local repository directory.
 - Run the following command from within your *Build* subdirectory:<br>
 ``dotnet publish -f net11.0-windows -v q -o ..\Release\STS; dotnet clean -f net11.0-windows -v q``
-- The compiled executable will be created in the *Release\LTS* subdirectory of your local repository directory.  This location can be changed by modifying the ``-o`` argument in the above command.
+- The compiled executable will be created in the *Release\STS* subdirectory of your local repository directory.  This location can be changed by modifying the ``-o`` argument in the above command.
 - The latest [Microsoft .NET 11.x Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/11.0) will be required on any computer used to run the executable.
 
 ## Executable Notes
